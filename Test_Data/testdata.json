@@ -1,4 +1,8 @@
 {
+  "entry_id": "3fe5dguZxs7e7bVbfAdjmHXnCI8u",
+  "parser_name": "parsers/archive",
+  "archive": {
+    "data": {
       "m_def": "../upload/raw/measurement_entry_schema.archive.yaml#/definitions/section_definitions/0",
       "name": "MnWO4_C3performance",
       "datetime": "2024-04-16T11:38:18.967172+00:00",
@@ -27,5 +31,7 @@
             "name": "propane"
           }
         ]
+      }
+    }
   }
 }
