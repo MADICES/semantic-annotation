@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "mad": "https://madices.github.io/",
+    "entry_id": "@id",
+    "archive": "@nest",
+    "data": "@nest",
+    "samples": {
+      "@id": "mad:hasInput",
+      "@type": "@id"
+    },
+    "name": {
+      "@id": "mad:name"
+    },
+    "lab_id": "@id",
+    "reaction_results": "@nest",
+    "reactants_conversions": {
+      "@id": "mad:hasReactant",
+      "@type": "@id",
+      "@context": {
+        "name": "@id"
+      }
+    }
+  }
+}
