@@ -14,7 +14,7 @@ cat Test_Data/3fe5dguZxs7e7bVbfAdjmHXnCI8u.json |
       data_file,
       samples,
       reactor_filling,
-      reaction_results: (.reaction_results) | {
-          reactants_conversions: .reactants_conversions[].name
-      }
+      reaction_results: (.reaction_results) | [{
+          reactants_conversions: {name: .reactants_conversions[].name}
+      }]
     })'
