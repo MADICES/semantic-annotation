@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "mad": "https://madices.github.io/",
+    "@base": "https://madices.github.io/",
+    "entry_id": "@id",
+    "archive": "@nest",
+    "data": "@nest",
+    "samples": {
+      "@reverse": "mad:IsInputOf"
+    },
+    "name": {
+      "@id": "mad:name"
+    },
+    "lab_id": "@id",
+    "reaction_results": "@nest",
+    "reactants_conversions": {
+      "@id": "mad:hasReactant",
+      "@type": "@id",
+      "@context": {
+        "name": "@id"
+      }
+    },
+    "parser_name": "@type",
+    "m_def": "@type",
+    "measurements": "mad:IsInputOf"
+  },
+  "@type": "nomad.datamodel.metainfo.basesections.CompositeSystemReference"
+}

@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "mad": "https://madices.github.io/",
+    "@base": "https://madices.github.io/",
+    "entry_id": "@id",
+    "archive": "@nest",
+    "data": "@nest",
+    "samples": {
+      "@reverse": "mad:IsInputOf"
+    },
+    "name": {
+      "@id": "mad:name"
+    },
+    "lab_id": "@id",
+    "reaction_results": "@nest",
+    "reactants_conversions": {
+      "@id": "mad:hasReactant",
+      "@type": "@id",
+      "@context": {
+        "name": "@id"
+      }
+    },
+    "parser_name": "@type",
+    "m_def": "@type"
+  },
+  "@graph": [
+    {
+      "entry_id": "3fe5dguZxs7e7bVbfAdjmHXnCI8u",
+      "parser_name": "parsers/archive",
+      "archive": {
+        "data": {
+          "m_def": "../upload/raw/measurement_entry_schema.archive.yaml#/definitions/section_definitions/0",
+          "name": "MnWO4_C3performance",
+          "datetime": "2024-04-16T11:38:18.967172+00:00",
+          "location": "FHI/AC department",
+          "reaction_class": "Oxidation",
+          "reaction_name": "Oxidation of Propane",
+          "experimenter": "P. Kube",
+          "data_file": "C3_performance_MnWO4.xlsx",
+          "samples": [
+            {
+              "m_def": "nomad.datamodel.metainfo.basesections.CompositeSystemReference",
+              "name": "32024",
+              "reference": "../uploads/YdPbMF9bT0621URM2mboUg/archive/pw50pT2_2tTTJMbiDphASGqcSAuX#/data",
+              "lab_id": "32024"
+            }
+          ],
+          "reactor_filling": {
+            "catalyst_mass": 231.1
+          },
+          "reaction_results": {
+            "reactants_conversions": [
+              {
+                "name": "oxygen"
+              },
+              {
+                "name": "propane"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "entry_id": "3fe5dguZxs7e7bVbfAdjmHXnCI8x",
+      "parser_name": "parsers/archive",
+      "archive": {
+        "data": {
+          "m_def": "../upload/raw/measurement_entry_schema.archive.yaml#/definitions/section_definitions/0",
+          "name": "MnWO4_C3performance",
+          "datetime": "2024-04-16T11:38:18.967172+00:00",
+          "location": "FHI/AC department",
+          "reaction_class": "Oxidation",
+          "reaction_name": "Oxidation of Propane",
+          "experimenter": "P. Kube",
+          "data_file": "C3_performance_MnWO4.xlsx",
+          "samples": [
+            {
+              "m_def": "nomad.datamodel.metainfo.basesections.CompositeSystemReference",
+              "name": "32024",
+              "reference": "../uploads/YdPbMF9bT0621URM2mboUg/archive/pw50pT2_2tTTJMbiDphASGqcSAuX#/data",
+              "lab_id": "32024"
+            }
+          ],
+          "reactor_filling": {
+            "catalyst_mass": 231.1
+          },
+          "reaction_results": {
+            "reactants_conversions": [
+              {
+                "name": "oxygen"
+              },
+              {
+                "name": "propane"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
