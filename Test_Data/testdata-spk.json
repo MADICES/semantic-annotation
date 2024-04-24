@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "dct": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+    "dcat": "https://www.w3.org/TR/vocab-dcat-2/",
+    "foaf": "http://xmlns.com/foaf/spec/",
+    "voc4cat": "https://w3id.org/nfdi4cat/voc4cat_",
+    "sio": "http://semanticscience.org/ontology/sio",
+    "om:": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+  },
+  "dcat:dataset": [
+    {
+      "dct:title": "MnWO4_C3performance",
+      "dct:description": "This is an exerp from one of the measurement entry datasets from the publication:Data-Centric Heterogeneous Catalysis: Identifying Rules and Materials Genes of Alkane Selective Oxidation https://pubs.acs.org/doi/full/10.1021/jacs.2c11117",
+      "dct:date": "2024-04-16T11:38:18.967172+00:00",
+      "dct:format": "https://www.iana.org/assignments/media-types/application/vnd.ms-excel",
+      "dct:location": "FHI/AC department",
+      "dct:theme_taxonomy": "../upload/raw/measurement_entry_schema.archive.yaml#/definitions/section_definitions/0",
+      "dct:creator": [
+        {
+          "foaf:agent": [
+            {
+              "foaf:first_name": "Pierre",
+              "foaf:last_name": "Kube"
+            }
+          ]
+        }
+      ],
+      "voc4cat:chemical_conversion": [
+        {
+          "voc4cat:reaction_name": "Oxidation of Propane",
+          "voc4cat:reaction_type": "voc4cat:oxidation",
+          "voc4cat:reactor_feed": [
+            {
+              "voc4cat:reagent": ["oxygen", "propane"]
+            }
+          ]
+        }
+      ],
+      "sio:sample": 
+      [
+        {
+          "om:value" : 
+          [
+            {
+              "om:measurement" : 
+              [
+                {
+                  "om:numerical_value" : "231.1",
+                  "om:unit" : "om:milligram"
+                }
+              ]
+            }
+          ],
+          "dcat:dataset" : [
+             {
+               "dct:title" : "sample 32024 dataset",
+               "dct:description" : "This is the dataset for the catalyst sample #32024",
+               "dct:identifier" : "32024",
+               "dcat:access_url" : "../uploads/YdPbMF9bT0621URM2mboUg/archive/pw50pT2_2tTTJMbiDphASGqcSAuX#/data",
+               "dcat:themeTaxonomy": "nomad.datamodel.metainfo.basesections.CompositeSystemReference"
+             }
+          ]
+        }
+      ]
+    }
+  ]
+}
