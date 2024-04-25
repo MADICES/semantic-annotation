@@ -76,7 +76,7 @@ doc = {
          "voc4cat:reaction_name": json_data['reaction_name'],
          "voc4cat:reaction_type": reaction_type, 
          "voc4cat:reactor_feed": [
-            str(reactants_array)
+            reactants_array
          ]
       },
       "sio:sample": {
